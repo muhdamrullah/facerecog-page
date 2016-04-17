@@ -1,7 +1,6 @@
 // invoke the carousel
 $(funtion(){
-  $('#myCarousel').carousel({
-  interval: 10000
+  $('#myCarousel').carousel({interval: 10000});
 });
 
 /* SLIDE ON CLICK */ 
@@ -22,7 +21,7 @@ $('.carousel-linked-nav > li > a').click(function() {
 
     // don't follow the link
     return false;
-}));
+});
 
 /* AUTOPLAY NAV HIGHLIGHT */
 
