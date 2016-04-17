@@ -62,7 +62,7 @@ body {
     font-size: 1.8vw;
     margin-bottom: 2.5vw;
     margin-left: 1vw;
-    overflow: scroll;
+    overflow: hidden;
 }
 .carousel-linked-nav {
   width: 160px;
