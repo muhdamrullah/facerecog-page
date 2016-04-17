@@ -63,6 +63,7 @@ body {
     margin-bottom: 2.5vw;
     margin-left: 1vw;
     overflow: hidden;
+    vertical-align: middle;
 }
 .carousel-linked-nav {
   width: 160px;
