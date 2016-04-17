@@ -1,0 +1,114 @@
+@import url('//netdna.bootstrapcdn.com/twitter-bootstrap/2.0.4/css/bootstrap-combined.min.css');
+
+#myCarousel {
+  margin-top: 0px;
+}
+
+.carousel-linked-nav,
+.item img {
+  display: block; 
+  margin: 0 auto;
+}
+
+body {
+    font-family: "Avenir Light", sans-serif
+}
+
+.item > div {
+    background-color: rgba(0,0,0,0.75);
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    -webkit-transition: opacity 0.3s linear;
+    text-shadow: #000 1px 1px 0;
+    color: #ccc;
+}
+.item:hover > div {
+    display: block;
+    opacity: 1.0;
+}
+.item > div div {
+    padding: 20px 40px;
+}
+.item h2 {
+    margin-top: 5vw;
+    font-size: 5.5vw;
+    letter-spacing: 0.05vw;
+    margin-bottom: 5vw;
+    margin-left: 1vw;
+    color: #0085CA;
+}
+.item h3 {
+    margin-top: 5vw;
+    font-size: 5.5vw;
+    letter-spacing: 0.05vw;
+    margin-bottom: 5vw;
+    margin-left: 1vw;
+    color: #ee2e24;
+}
+.item h4 {
+    margin-top: 5vw;
+    font-size: 5.5vw;
+    letter-spacing: 0.05vw;
+    margin-bottom: 5vw;
+    margin-left: 1vw;
+    color: #FFFFFF;
+}
+.item p {
+    font-size: 2vw;
+    margin-bottom: 2.5vw;
+    margin-left: 1vw;
+    overflow: hidden;
+}
+.carousel-linked-nav {
+  width: 160px;
+  margin-bottom: 20px;   
+}
+
+#nav{
+  width:100%;
+  height:100%;
+  position:absolute;
+  top:0vw;
+  left:0;
+  z-index:100;
+  background:#111;
+  color:#fff;
+  overflow:hidden;
+  opacity:0.8;
+}
+#nav ul{
+  margin:0;
+  padding:0;
+  width:100%;
+  list-style:none;
+  text-align: center;
+}
+#nav a span{
+  margin:0 10px 0 0;
+}
+#nav a{
+  color:white;
+  font-size:1.5vw;
+  text-decoration:none;
+  margin-bottom: 0vw;
+  padding-right: 0vw;
+  line-height: 130%;
+}
+
+#nav img {
+  display: block; 
+  margin: 0 auto;
+  height: 10vh;
+}
+
+#nav a:hover, img:hover {
+  opacity:0.5;
+  text-decoration:none;
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  z-index: 2;
+}
