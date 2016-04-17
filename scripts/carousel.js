@@ -39,10 +39,4 @@ $('#myCarousel').bind('slid', function() {
 
 });
 
-$(function(){
-    $('#nav').hover(function(){
-        $(this).animate({height:'150px'},500);
-    },function(){
-        $(this).animate({height:'2.0vw'},500);
-    }).trigger('mouseleave');
-});
+
