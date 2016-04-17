@@ -47,3 +47,6 @@ $(function(){
     }).trigger('mouseleave');
 });
 
+if(window.innerHeight > window.innerWidth){
+  alert("Please rotate for best viewing experience.");
+}
