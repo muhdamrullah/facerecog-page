@@ -48,5 +48,5 @@ $(function(){
 });
 
 if(window.innerHeight > window.innerWidth){
-  alert("Use landscape mode for viewing pleasure");
+  alert("Rotate to landscape mode");
 }
