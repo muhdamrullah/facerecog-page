@@ -39,7 +39,7 @@ body {
     font-size: 5.5vw;
     letter-spacing: 0.05vw;
     margin-bottom: 3vw;
-    margin-left: 1vw;
+    margin: 1vw;
     color: #0085CA;
 }
 .item h3 {
@@ -47,7 +47,7 @@ body {
     font-size: 5.5vw;
     letter-spacing: 0.05vw;
     margin-bottom: 3vw;
-    margin-left: 1vw;
+    margin: 1vw;
     color: #ee2e24;
 }
 .item h4 {
@@ -55,7 +55,7 @@ body {
     font-size: 5.5vw;
     letter-spacing: 0.05vw;
     margin-bottom: 3vw;
-    margin-left: 1vw;
+    margin: 1vw;
     color: #FFFFFF;
 }
 .item p {
