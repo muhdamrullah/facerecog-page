@@ -1,5 +1,10 @@
 @import url('//netdna.bootstrapcdn.com/twitter-bootstrap/2.0.4/css/bootstrap-combined.min.css');
 
+@media screen and (orientation: portrait)
+{
+body { background: black;}
+}
+
 #myCarousel {
   margin-top: 0px;
 }
