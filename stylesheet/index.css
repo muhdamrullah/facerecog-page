@@ -35,26 +35,26 @@ body {
     padding: 20px 40px;
 }
 .item h2 {
-    margin-top: 3vw;
+    margin-top: 5vw;
     font-size: 5.5vw;
     letter-spacing: 0.05vw;
-    margin-bottom: 3vw;
+    margin-bottom: 5vw;
     margin-left: 1vw;
     color: #0085CA;
 }
 .item h3 {
-    margin-top: 3vw;
+    margin-top: 5vw;
     font-size: 5.5vw;
     letter-spacing: 0.05vw;
-    margin-bottom: 3vw;
+    margin-bottom: 5vw;
     margin-left: 1vw;
     color: #ee2e24;
 }
 .item h4 {
-    margin-top: 3vw;
+    margin-top: 5vw;
     font-size: 5.5vw;
     letter-spacing: 0.05vw;
-    margin-bottom: 3vw;
+    margin-bottom: 5vw;
     margin-left: 1vw;
     color: #FFFFFF;
 }
