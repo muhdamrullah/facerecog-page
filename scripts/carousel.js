@@ -1,6 +1,6 @@
 // invoke the carousel
-$(funtion(){
-  $('#myCarousel').carousel({interval: 10000});
+$('#myCarousel').carousel({
+  interval: 10000;
 });
 
 /* SLIDE ON CLICK */ 
